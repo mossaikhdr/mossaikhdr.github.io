@@ -1,0 +1,319 @@
+html, body {
+    --background-color: rgb(31, 31, 31);
+    --nav-bar-background-color: rgba(31, 31, 31, 0.5);
+    /* --text-color: #111111; */
+    --text-color: #eeeeee;
+    --creative-text-color-1: #888888;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: var(--background-color);
+}
+a {
+    text-decoration: none;
+}
+div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section {
+    margin-bottom: 150px;
+}
+section.no-space {
+    margin-bottom: 0;
+}
+
+.heading-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 100px;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img-primary {
+    width: 100%;
+    height: 1500px;
+    background-color: transparent;
+    /* background-color: red; */
+    background-repeat: no-repeat; 
+    /* background-size: 50%; */
+    background-position: center;
+}
+
+
+.text-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    color: var(--creative-text-color-1);
+    line-height: 1.1;
+    width: 40%;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+
+
+.img-collage-1 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    background-color: transparent;
+}
+.inset-img {
+    flex: 2;
+    height: 100%;
+    background-image: url('../images/main.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    /* background-size: 50%; */
+    background-size: 100%;
+    background-position: center;
+}
+.inset-img-left {
+    background-position: left;
+}
+.inset-img-right {
+    background-position: right;
+}
+
+.creative-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+}
+.banner-img-1 {
+    flex: 2;
+    background-color: transparent;
+    background-image: url('../images/main.png');
+    background-size: 120%;
+    background-position: right;
+}
+.banner-img-2 {
+    flex: 2;
+    background-color: transparent;
+    background-image: url('../images/main.png');
+    background-size: 120%;
+    background-position: left;
+}
+.text-container-1 {
+    flex: 2;
+    background-color: transparent;
+    padding: 100px;
+}
+.text-container-2 {
+    flex: 2;
+    background-color: transparent;
+    padding: 100px;
+    /* margin-left: 400px; */
+}
+.text-5 {
+    width: 60%;
+    /* margin-left: 450px; */
+}
+.text-2 {
+    width: 60%;
+}
+.creative-text-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--text-color);
+    text-align: center;
+}
+.creative-text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    color: var(--creative-text-color-1);
+    text-align: center;
+}
+
+
+
+.text-3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-6 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 450px; */
+}
+.creative-text-3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    color: var(--creative-text-color-1);
+}
+.creative-text-4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--creative-text-color-1);
+}
+
+.creative-icon {
+    background-image: url(../images/sample.png);
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.creative-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+}
+
+.text-4 {
+    width: 60%;
+    padding: 100px 0 100px 0;
+}
+.text-7 {
+    width: 60%;
+    /* margin-left: 450px; */
+    padding: 100px 0 100px 0;
+}
+
+.section-buy {
+    margin-top: 400px;
+}
+.buy {
+    width: 100%;
+    height: 600px;
+}
+.app-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: calc(50% - 50px);
+    background-image: url(../images/sample.png);
+}
+.app-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 44px;
+    color: var(--text-color);
+    line-height: 1.1;
+    width: 100%;
+    text-align: center;
+    /* margin-left: 400px; */
+}
+.app-substr {
+    text-align: center;
+    color: var(--creative-text-color-1);
+}
+.app-link {
+    width: 150px;
+    border-radius: 100px;
+    padding: 10px 0;
+    margin-left: calc(50% - 75px);
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-top: 50px;
+    background-color: rgb(44, 103, 207);
+    color: white;
+}
+
+.text-darker {
+    color: var(--text-color);
+    /* font-weight: 600; */
+}
+
+/* @media screen and (max-width:700px){
+    .img-primary { 
+        background-size: 90%; 
+        height: 500px;
+    }
+
+    .text-1 {
+        margin-left: 100px;
+        width: calc(100% - 200px);
+    }
+} */
+
+
+@media screen and (max-width:1400px){
+    .img-primary { 
+        background-size: 80%; 
+        height: 1000px;
+    }
+
+    .text-1 {
+        margin-left: 100px;
+        width: calc(100% - 200px);
+    }
+    
+    .text-2 {
+        width: calc(100% - 80px);
+    }
+
+    .text-5 {
+        width: calc(100% - 80px);
+    }
+
+    .text-4, .text-7 {
+        width: 100%;
+    }
+
+    .text-container {
+        padding: 10px;
+    }
+}
+
+
+#img-1 {
+    background-image: url(../images/main.png);
+    background-size: contain;
+}
+#img-2 {
+    background-image: url(../images/hdr_1.png);
+    background-size: contain;
+}
+#img-3 {
+    background-image: url(../images/hdr_2.png);
+    background-size: contain;
+}
+#img-4 {
+    background-image: url(../images/hdr_4.png);
+    background-size: contain;
+}
+#img-5 {
+    background-image: url(../images/hdr_5.png);
+    background-size: contain;
+}
+#img-6 {
+    background-image: url(../images/hdr_6.png);
+    background-size: contain;
+}
+
+#mossaik-hdr-logo {
+    background-image: url(../images/mossaik_hdr_logo.png);
+    background-size: contain;
+}
