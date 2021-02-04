@@ -317,3 +317,28 @@ a {
     background-image: url(../images/mossaik_hdr_logo.png);
     background-size: contain;
 }
+
+#img-cls-1 {
+    background-image: url(../images/cls_3.png);
+    background-size: contain;
+}
+#img-cls-2 {
+    background-image: url(../images/cls_6_1.png);
+    background-size: contain;
+}
+#img-cls-3 {
+    background-image: url(../images/cls_6_2.png);
+    background-size: contain;
+}
+#img-cls-4 {
+    background-image: url(../images/cls_1.png);
+    background-size: contain;
+}
+#img-cls-5 {
+    background-image: url(../images/cls_2.png);
+    background-size: contain;
+}
+#mossaik-classic-logo {
+    background-image: url(../images/mossaik_classic_logo.png);
+    background-size: contain;
+}
