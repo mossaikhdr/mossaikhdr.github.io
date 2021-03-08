@@ -313,8 +313,37 @@ a {
     background-size: contain;
 }
 
+#img-hdrp-1 {
+    background-image: url(../images/hdrp/ice.png);
+    background-size: contain;
+}
+#img-hdrp-2 {
+    background-image: url(../images/hdrp/win_1.png);
+    background-size: contain;
+}
+#img-hdrp-3 {
+    background-image: url(../images/hdrp/win_2.png);
+    background-size: contain;
+}
+#img-hdrp-4 {
+    background-image: url(../images/hdrp/swim.png);
+    background-size: contain;
+}
+#img-hdrp-5 {
+    background-image: url(../images/hdrp/cat.png);
+    background-size: contain;
+}
+#img-hdrp-6 {
+    background-image: url(../images/hdrp/mountain.png);
+    background-size: contain;
+}
+
 #mossaik-hdr-logo {
     background-image: url(../images/mossaik_hdr_logo.png);
+    background-size: contain;
+}
+#mossaik-hdr-pro-logo {
+    background-image: url(../images/mossaik_hdr_pro.png);
     background-size: contain;
 }
 
